@@ -31,11 +31,11 @@
         <section id="about" class="section">
             <div class="section-content">
                 <div class="profile-image">
-                    <img src="/api/placeholder/300/300" alt="Tanguy Carpentier">
+                    <img src="moi.jpg" alt="Tanguy Carpentier">
                 </div>
                 <h1>Tanguy Carpentier</h1>
                 <h2>Étudiant en Informatique</h2>
-                <p class="tagline">Passionné par l'innovation technologique, je développe des solutions créatives et efficaces.</p>
+                <p class="tagline">Transformer des idées en lignes de code et des projets en réalité</p>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/tanguy-carpentier-7587222a4/" class="social-icon"><i class="fab fa-linkedin"></i></a>
                 </div>
@@ -48,16 +48,16 @@
                 <div class="timeline">
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <h3>Licence en Informatique</h3>
-                            <p>Université Tech Paris, 2021-2024</p>
-                            <p class="details">Mention Bien | Projets innovants en développement web</p>
+                            <h3>BUT Informatique</h3>
+                            <p>BUT Amiens, 2023-2026</p>
+                            <p class="details">Spécialisation Base de données</p>
                         </div>
                     </div>
                     <div class="timeline-item">
                         <div class="timeline-content">
-                            <h3>DUT Informatique</h3>
-                            <p>IUT Lyon, 2019-2021</p>
-                            <p class="details">Major de promotion | Spécialisation développement mobile</p>
+                            <h3>Baccalauréat Général option euro histoire</h3>
+                            <p>Lycée Madeleine Michelis, 2022</p>
+                            <p class="details">Mention Bien</p>
                         </div>
                     </div>
                 </div>
@@ -73,13 +73,17 @@
                         <div class="experience-grid">
                             <div class="experience-card">
                                 <h4>Développeur Web Stagiaire</h4>
-                                <p>Entreprise Tech Innovate, Paris</p>
-                                <p>Développement d'applications web responsive avec React</p>
+                                <p>Reboot-Services, Toutencourt</p>
+                                <p>Janvier 2025 à Mars 2025</p>
+                                <p>Refonte de leur site web avec un mini-cms pour modifier le contenu actualité et le désactiver si besoin</p>
+                                <p>Et Veille Technologique</p>
+                                <p>bouton en savoir plus </p>
                             </div>
                             <div class="experience-card">
-                                <h4>Assistant R&D</h4>
-                                <p>Laboratoire Universitaire, Paris</p>
-                                <p>Contribution à des projets de recherche en intelligence artificielle</p>
+                                <h4>Création Site Web</h4>
+                                <p>Pour l'association La Grange à Soie</p>
+                                <p>Décembre 2024</p>
+                                <p>voir le site grangesoie.fr</p>
                             </div>
                         </div>
                     </div>
@@ -87,14 +91,16 @@
                         <h3>Expériences Hors Informatique</h3>
                         <div class="experience-grid">
                             <div class="experience-card">
-                                <h4>Animateur Socioculturel</h4>
-                                <p>Centre Communal, Lyon</p>
-                                <p>Coordination d'activités pour jeunes et gestion de projets</p>
+                                <h4>Employé Logistique</h4>
+                                <p>Leroy Merlin, Amiens</p>
+                                <p>Août 2024 à aujourd'hui</p>
+                                <p>Préparation de commande, délivrance de commande au client</p>
                             </div>
                             <div class="experience-card">
                                 <h4>Vendeur</h4>
-                                <p>Boutique de Sport, Paris</p>
-                                <p>Conseil client et gestion des ventes</p>
+                                <p>Brico Dépôt, Dury</p>
+                                <p>Novembre 2022 à Août 2024</p>
+                                <p>Conseil client, Mise en rayon, Gestion du Service après vente</p>
                             </div>
                         </div>
                     </div>
