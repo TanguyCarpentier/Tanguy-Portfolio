@@ -40,6 +40,7 @@
 
     <main>
         <section id="about" class="section">
+        <div class="parallax-background" style="background-image: url('about-bg.jpg');"></div>
             <div class="section-content" data-aos="fade-up">
                 <div class="profile-image">
                     <img src="moi.jpg" alt="Tanguy Carpentier" class="hover-effect">
@@ -58,6 +59,7 @@
         </section>
 
         <section id="education" class="section">
+        <div class="parallax-background" style="background-image: url('education-bg.jpg');"></div>
             <div class="section-content">
                 <h2 data-aos="fade-down">Parcours Académique</h2>
                 <div class="timeline">

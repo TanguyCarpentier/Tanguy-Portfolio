@@ -69,10 +69,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Parallax effect
-        sections.forEach(section => {
+        // Effet de parallaxe pour les arrière-plans
+        document.querySelectorAll('.parallax-background').forEach(background => {
             const distance = window.scrollY;
-            section.style.transform = `translateY(${distance * 0.1}px)`;
+            background.style.transform = `translateY(${distance * 0.1}px)`;
         });
     });
 
