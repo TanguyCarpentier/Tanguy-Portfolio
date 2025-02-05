@@ -412,17 +412,21 @@ footer .footer-links a:hover {
 
 /* Animation de typing */
 .typing {
+    /* Gardez ces propriétés */
     overflow: hidden;
     border-right: 2px solid var(--primary-color);
     white-space: nowrap;
-    animation: typing 3.5s steps(30, end),
+    
+    /* Modifications */
+    display: inline-block; /* Pour que la largeur s'adapte au contenu */
+    width: 0; /* Commencer à 0 */
+    animation: typing 3.5s steps(30, end) forwards, /* Ajout de 'forwards' */
                blink-caret 0.75s step-end infinite;
-    margin: 0 auto;
 }
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 100% }
+    to { width: 21.5ch } /* Utilisez une valeur en 'ch' basée sur le nombre de caractères */
 }
 
 @keyframes blink-caret {

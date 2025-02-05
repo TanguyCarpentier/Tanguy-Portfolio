@@ -91,10 +91,10 @@
                             <div class="experience-card hover-effect">
                                 <h4>Développeur Web Stagiaire</h4>
                                 <p>Reboot-Services, Toutencourt</p>
-                                <p>Janvier 2025 à Mars 2025</p>
+                                <p>Janvier 2025 - Mars 2025</p>
                                 <p>Refonte de leur site web avec un mini-cms pour modifier le contenu actualité et le désactiver si besoin</p>
                                 <p>Et Veille Technologique</p>
-                                <button class="learn-more-btn">En savoir plus</button>
+                                <button class="learn-more-btn"><a href="https://reboot-services.fr/" target="_blank">En Savoir Plus</a></button>
                             </div>
                             <div class="experience-card hover-effect">
                                 <h4>Création Site Web</h4>
@@ -110,13 +110,13 @@
                             <div class="experience-card hover-effect">
                                 <h4>Employé Logistique</h4>
                                 <p>Leroy Merlin, Amiens</p>
-                                <p>Août 2024 à aujourd'hui</p>
+                                <p>Août 2024 - Aujourd'hui</p>
                                 <p>Préparation de commande, délivrance de commande au client</p>
                             </div>
                             <div class="experience-card hover-effect">
                                 <h4>Vendeur</h4>
                                 <p>Brico Dépôt, Dury</p>
-                                <p>Novembre 2022 à Août 2024</p>
+                                <p>Novembre 2022 - Août 2024</p>
                                 <p>Conseil client, Mise en rayon, Gestion du Service après vente</p>
                             </div>
                         </div>
