@@ -15,14 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500);
     });
 
-    // Curseur personnalisé
-    const cursor = document.querySelector('.cursor');
-    const cursorFollower = document.querySelector('.cursor-follower');
-
-    document.addEventListener('mousemove', (e) => {
-        cursor.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
-        cursorFollower.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
-    });
 
     // Effet hover sur les liens
     document.querySelectorAll('a').forEach(link => {
@@ -44,6 +36,25 @@ document.addEventListener('DOMContentLoaded', () => {
     burgerMenu.addEventListener('click', () => {
         navLinks.classList.toggle('active');
         burgerMenu.classList.toggle('active');
+    });
+
+    // Blue interaction highlights
+    document.querySelectorAll('.hover-effect').forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            el.style.boxShadow = '0 0 15px rgba(21, 158, 223, 0.4)';
+        });
+        el.addEventListener('mouseleave', () => {
+            el.style.boxShadow = 'none';
+        });
+    });
+
+    // Advanced parallax with blue depth
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.pageYOffset;
+        document.querySelectorAll('.parallax-background').forEach(bg => {
+            bg.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+            bg.style.filter = `brightness(${1 - scrollPosition * 0.001}) hue-rotate(${scrollPosition * 0.1}deg)`;
+        });
     });
 
     // Scroll spy pour la navigation
