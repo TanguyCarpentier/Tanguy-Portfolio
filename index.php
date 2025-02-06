@@ -82,48 +82,76 @@
         </section>
 
         <section id="experiences" class="section">
-            <div class="section-content">
-                <h2 data-aos="fade-down">Mes Expériences</h2>
-                <div class="experiences-container">
-                    <div class="experience-category" data-aos="fade-right">
-                        <h3>Expériences en Informatique</h3>
-                        <div class="experience-grid">
-                            <div class="experience-card hover-effect">
-                                <h4>Développeur Web Stagiaire</h4>
-                                <p>Reboot-Services, Toutencourt</p>
-                                <p>Janvier 2025 - Mars 2025</p>
-                                <p>Refonte de leur site web avec un mini-cms pour modifier le contenu actualité et le désactiver si besoin</p>
-                                <p>Et Veille Technologique</p>
-                                <button class="learn-more-btn"><a href="https://reboot-services.fr/" target="_blank">En Savoir Plus</a></button>
-                            </div>
-                            <div class="experience-card hover-effect">
-                                <h4>Création Site Web</h4>
-                                <p>Pour l'association La Grange à Soie</p>
-                                <p>Décembre 2024</p>
-                                <p>Voir le site <a href="http://grangesoie.fr" target="_blank">grangesoie.fr</a></p>
-                            </div>
+    <div class="section-content">
+        <h2 data-aos="fade-down">Mes Expériences</h2>
+        <div class="experiences-container">
+            <div class="experience-category" data-aos="fade-right">
+                <h3>Expériences en Informatique</h3>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <h4>Développeur Web Stagiaire</h4>
+                        <p class="company">Reboot-Services, Toutencourt</p>
+                        <p class="date">Janvier 2025 - Mars 2025</p>
+                        <div class="description">
+                            <ul>
+                                <li>Refonte complète du site web de l'entreprise</li>
+                                <li>Implémentation d'un système de gestion de contenu pour les actualités</li>
+                                <li>Réalisation d'une veille technologique approfondie</li>
+                            </ul>
+                        </div>
+                        <button class="learn-more-btn">
+                            <a href="https://reboot-services.fr/" target="_blank">Voir le projet</a>
+                        </button>
+                    </div>
+                    <div class="experience-card">
+                        <h4>Création Site Web</h4>
+                        <p class="company">La Grange à Soie</p>
+                        <p class="date">Décembre 2024</p>
+                        <div class="description">
+                            <ul>
+                                <li>Développement d'un site web responsive pour l'association</li>
+                                <li>Mise en place d'une interface utilisateur intuitive</li>
+                                <li>Optimisation des performances et du référencement</li>
+                            </ul>
+                        </div>
+                        <button class="learn-more-btn">
+                            <a href="http://grangesoie.fr" target="_blank">Voir le site</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-category" data-aos="fade-left">
+                <h3>Expériences Professionnelles</h3>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <h4>Employé Logistique</h4>
+                        <p class="company">Leroy Merlin, Amiens</p>
+                        <p class="date">Août 2024 - Aujourd'hui</p>
+                        <div class="description">
+                            <ul>
+                                <li>Gestion des commandes clients</li>
+                                <li>Préparation et délivrance des commandes</li>
+                                <li>Optimisation des processus logistiques</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="experience-category" data-aos="fade-left">
-                        <h3>Expériences Hors Informatique</h3>
-                        <div class="experience-grid">
-                            <div class="experience-card hover-effect">
-                                <h4>Employé Logistique</h4>
-                                <p>Leroy Merlin, Amiens</p>
-                                <p>Août 2024 - Aujourd'hui</p>
-                                <p>Préparation de commande, délivrance de commande au client</p>
-                            </div>
-                            <div class="experience-card hover-effect">
-                                <h4>Vendeur</h4>
-                                <p>Brico Dépôt, Dury</p>
-                                <p>Novembre 2022 - Août 2024</p>
-                                <p>Conseil client, Mise en rayon, Gestion du Service après vente</p>
-                            </div>
+                    <div class="experience-card">
+                        <h4>Vendeur Conseil</h4>
+                        <p class="company">Brico Dépôt, Dury</p>
+                        <p class="date">Novembre 2022 - Août 2024</p>
+                        <div class="description">
+                            <ul>
+                                <li>Conseil technique et accompagnement client</li>
+                                <li>Gestion du service après-vente</li>
+                                <li>Formation des nouveaux collaborateurs</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
         <section id="skills" class="section">
             <div class="section-content">

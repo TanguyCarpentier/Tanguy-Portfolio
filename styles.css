@@ -52,7 +52,7 @@ main {
 .logo {
     font-size: 1.8rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #0a2f3c;
     letter-spacing: 1px;
 }
 
@@ -152,59 +152,126 @@ main {
 
 /* Experiences Section */
 
-.experience-category, 
-.skill-category, 
-#contact-form {
-    box-shadow: 0 4px 15px rgba(26, 95, 122, 0.2);
-}
-
+/* Expériences Section Styles */
+/* Expériences Section Styles */
 .experiences-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .experience-category {
-    flex: 1;
     background-color: var(--card-bg);
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 15px rgba(26, 95, 122, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .experience-category:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(26, 95, 122, 0.2);
 }
 
 .experience-category h3 {
     color: var(--primary-color);
-    margin-bottom: 20px;
-    border-bottom: 2px solid var(--secondary-color);
-    padding-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid var(--secondary-color);
+    position: relative;
 }
 
 .experience-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 1.5rem;
+    grid-template-rows: 1fr;
 }
 
 .experience-card {
     background-color: var(--bg-color);
-    border-radius: 8px;
-    padding: 15px;
+    border-radius: 12px;
+    padding: 1.5rem;
     transition: all 0.3s ease;
+    border: 1px solid rgba(21, 158, 223, 0.1);
+    height: 100%; /* Force la même hauteur pour toutes les cartes */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .experience-card:hover {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transform: scale(1.02);
+    box-shadow: 0 8px 15px rgba(21, 158, 223, 0.15);
+    transform: translateY(-3px);
 }
 
 .experience-card h4 {
     color: var(--secondary-color);
-    margin-bottom: 5px;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.experience-card p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.experience-card .company {
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.experience-card .date {
+    color: var(--text-color);
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.experience-card .description {
+    margin-top: 1rem;
+    color: var(--text-color);
+}
+
+.experience-card .description ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-card .description li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.experience-card .description li:before {
+    content: "•";
+    color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+}
+
+.learn-more-btn {
+    margin-top: 1rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.learn-more-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.learn-more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(21, 158, 223, 0.3);
 }
 
 /* Skills Section */
@@ -367,7 +434,7 @@ footer .footer-links a:hover {
 /* Animation glitch pour le titre */
 .glitch {
     position: relative;
-    color: var(--primary-color);
+    color: #0a2f3c;
     text-shadow: 0.05em 0 0 rgba(255,0,0,0.75),
                 -0.025em -0.05em 0 rgba(0,255,0,0.75),
                 0.025em 0.05em 0 rgba(0,0,255,0.75);
@@ -408,7 +475,7 @@ footer .footer-links a:hover {
     /* Modifications */
     display: inline-block; /* Pour que la largeur s'adapte au contenu */
     width: 0; /* Commencer à 0 */
-    animation: typing 3.5s steps(30, end) forwards, /* Ajout de 'forwards' */
+    animation: typing 2s steps(30, end) forwards, /* Réduit de 3.5s à 2s */
                blink-caret 0.75s step-end infinite;
 }
 
